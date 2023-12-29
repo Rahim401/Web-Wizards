@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styleguide.css" />
+    <link rel="stylesheet" href="../base64s.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="main.js"></script>
+    <style>
+        .profile-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5%;
+        }
+        .light {
+            background-color: var(--blue);
+        }
+        .dark {
+            background-color: var(--dark-blue);
+        }
+        
+        .photo-mask {
+            mask: var(--photo-mask);
+            mask-repeat: no-repeat;
+            mask-size: contain;
+        }
+        .photo {
+            width: 500px;
+            height: 500px;
+            object-fit: cover; /* Crop and fit the image within the container */
+        }
+        .text-container {
+            margin-left: 7%;
+            margin-right: 5%;
+            max-width: 800px;
+            align-self: flex-start;
+        }
+        .row-container {
+            display: flex;
+            align-items: center; 
+            flex-wrap: nowrap; 
+            justify-content: space-between;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main-page">
+        <div class="profile-container light">
+            <span class="photo-container">
+                <div class="photo-mask">
+                    <img src="../Res/Rahim Dp.jpg" class="photo" />
+                </div>
+            </span>
+            <div class="text-container">
+                <div class="row-container">
+                    <h2 class="title-text">H Rahim</h2>
+                    <h2 class="subtitle-text">1AY22CS413</h2>
+                </div>
+                <p class="content-text">
+                    I am android developer, who lives in Silicon Valley of India and Born in South most part of it. I was very much interest in the Science especially Astrophysics from the childhood itself. But due to some complicated reasons Joined Diploma in Computer Science after 10th, And now Pursuing my Degree in AIT</br></br>
+                    From childhood itself with Science i was also interested in technologies, how electronic things works. Near my 10th this Curiosity pushed me to learn Different abstracting layers of Computer Architecture, which fascinated and inspired me eventually to learn Programming.</br></br>
+                    So as time progressed, i learned by working on a lot of Python, Android, JavaFx Projects, Mostly for me and Some for External companies. Now i can easily master any Programming language or Frameworks within Days because i know concepts.
+                </h2>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

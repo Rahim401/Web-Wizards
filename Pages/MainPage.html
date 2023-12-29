@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../styleguide.css" />
+    <link rel="stylesheet" href="../base64s.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <script src="main.js"></script>
+    <style>
+        .team-wallpaper-mask {
+            mask: var(--wallpaper-mask);
+            mask-repeat: no-repeat;
+            mask-size: contain;
+            overflow: hidden;
+        }
+        .team-wallpaper {
+            width: 100%;
+            height: 100%;
+            margin-top: -250px;
+            margin-bottom: -150px;
+            object-fit: cover; /* Crop and fit the image within the container */
+        }
+        .team-text-container {
+            position: absolute;
+            top: 70%; left: 10%;
+            width: 60%;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="main-page">
+        <div>
+            <div class="team-wallpaper-mask">
+                <img src="../Res/Wizard2.jpg" class="team-wallpaper" />
+            </div>
+            <div class="team-text-container">
+                <h2 class="title-text">Web Wizards</h2>
+                <h2 class="content-text">A team of two tech enthusiast Rahim and Sri Nidhi, who shares similar interest in wide range of concepts from Politics to Music to Programming. With some knowledge and skills on Software Development.</h2>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  margin: 0; /* Remove default body margin */
+}
+
+.main-page {
+  background-color: #183059;
+  height: 100vh;
+}
+
+.title-text {
+  font-family: monospace;
+  font-size: 48px;
+  font-weight: bold;
+  color: white; margin: 0;
+}
+.subtitle-text {
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8); margin: 0;
+}
+
+.content-text {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.8); margin: 0;
+}
