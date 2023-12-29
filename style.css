@@ -30,3 +30,12 @@ body {
   font-weight: bold;
   color: rgba(255, 255, 255, 0.8); margin: 0;
 }
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(255, 255, 255);
+}
